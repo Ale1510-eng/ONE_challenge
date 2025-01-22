@@ -35,13 +35,20 @@ La aplicación permite ingresar los nombres de los amigos y luego sortear uno al
 
 ## Estructura del Proyecto 📁
 
-amigo-secreto/
-├── index.html        # Página principal
-├── style.css         # Estilos de la interfaz
-├── app.js            # Lógica del sorteo y la lista
-└── assets/           # Carpeta con las imágenes (opcional)
-    ├── amigo-secreto.png
-    └── play_circle_outline.png
+amigo-secreto/  
+
+├── index.html        # Página principal  
+
+├── style.css         # Estilos de la interfaz  
+
+├── app.js            # Lógica del sorteo y la lista  
+
+└── assets/           # Carpeta con las imágenes (opcional)  
+
+    ├── amigo-secreto.png  
+    
+    └── play_circle_outline.png  
+    
 ## Uso 📝
 Agregar Amigos: Escribe el nombre de un amigo y haz clic en "Añadir".
 Sortear un Amigo: Haz clic en "Sortear amigo" y se mostrará un amigo aleatorio.
