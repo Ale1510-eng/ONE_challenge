@@ -3,8 +3,7 @@ let amigos = [];
 
 //Función para agregar amigos
 function agregarAmigo() {
-    //captura del valor del input
-    let amigo = document.getElementById('amigo').value;
+    let amigo = document.getElementById('amigo').value; //captura del valor del input
     // Condicional para validar o actualizar el array
     amigo == ""
         ? alert("Por favor, inserte un nombre.")
@@ -13,22 +12,34 @@ function agregarAmigo() {
     asignarTextoElemento('listaAmigos');
 }
 
+
+
 // Funcion para limpiar el input
 function limpiar() {
     document.getElementById('amigo').value = '';
 }
 
 function asignarTextoElemento(elemento) {
-    // Obtener elemento de la lista
-    let lista = document.getElementById(elemento);
-    // Limpiar lista existente
-    lista.innerHTML = "";
+    let lista = document.getElementById(elemento); // Obtener elemento de la lista
+    lista.innerHTML = ""; // Limpiar lista existente
     // iteración de los elementos de la lista de amigos
     for (let i = 0; i < amigos.length; i++) {
-        // Añadir elementos a la lista
-        lista.innerHTML += `<li>${amigos[i]}</li>`;
+        lista.innerHTML += `<li>${amigos[i]}</li>`;// Añadir elementos a la lista de amigos
     }
 }
+
+
+// función para sortear a amigo
+function sortearAmigo() {
+    let numeroDeAmigo = 0;
+    // condicional para validar que haya amigos
+    amigos != 0
+        ? numeroDeAmigo = Math.floor(Math.random() * (amigos.length)) //Generar un índice aleatorio de la lista de amigos
+        : alert(`Tu lista de amigos está vacía.
+        Por favor introduce un nombre`);
+    document.getElementById('resultado').innerHTML = amigos[numeroDeAmigo]; // Mostrar resultados
+}
+
 
 
 
