@@ -37,10 +37,10 @@ La aplicación permite ingresar los nombres de los amigos y luego sortear uno al
 
 amigo-secreto/  
 
-├── index.html        # Página principal  
-├── style.css         # Estilos de la interfaz  
-├── app.js            # Lógica del sorteo y la lista  
-└── assets/           # Carpeta con las imágenes (opcional)  
+├── index.html # Página principal  
+├── style.css # Estilos de la interfaz  
+├── app.js # Lógica del sorteo y la lista  
+└── assets/ # Carpeta con las imágenes (opcional)  
     ├── amigo-secreto.png  
     └── play_circle_outline.png  
     
