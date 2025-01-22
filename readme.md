@@ -47,3 +47,11 @@ amigo-secreto/
 ## Uso 📝
 Agregar Amigos: Escribe el nombre de un amigo y haz clic en "Añadir".
 Sortear un Amigo: Haz clic en "Sortear amigo" y se mostrará un amigo aleatorio.
+
+## Contribuciones 🤝
+¡Las contribuciones son bienvenidas! Si tienes alguna mejora o corrección que deseas agregar, sigue estos pasos:
+
+Realiza un fork de este repositorio.
+Crea tu propia rama para hacer las modificaciones.
+Abre un pull request explicando los cambios.
+¡Gracias por ayudar a mejorar este proyecto!
