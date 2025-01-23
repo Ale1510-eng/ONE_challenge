@@ -43,7 +43,7 @@ function sortearAmigo() {
         : alert(`Tu lista de amigos está vacía.
         Por favor introduce un nombre`);
     listaAmigos.innerHTML = ''; // remueve los elemento li
-    resultado.innerHTML += amigos[numeroDeAmigo]; // Mostrar resultados
+    resultado.innerHTML += `Tu amigo secreto es: ${amigos[numeroDeAmigo]}`; // Mostrar resultados
     botonSortear.setAttribute('disabled', true);
     botonSortear.setAttribute('class', 'button-draw-disabled');
     botonAgregar.setAttribute('disabled', true);
